@@ -82,6 +82,7 @@ Wait for *node1* to start.
 ```
 You should now see that the nodes are in different datacenters.
 
+<img src="https://katapod-file-store.s3.us-west-1.amazonaws.com/ds201/lab10-image01.png" />
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
