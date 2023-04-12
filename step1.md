@@ -40,7 +40,7 @@ nano /workspace/ds201-lab10/node2/conf/cassandra.yaml
 
 ✅ Open `/workspace/ds201-lab10/node1/conf/cassandra-rackdc.properties` in a *nano* or the text editor of your choice and find the `endpoint_snitch` setting:
 ```
-nano /workspace/ds201-lab10/node1/conf/cassandra.yaml
+nano /workspace/ds201-lab10/node1/conf/cassandra-rackdc.properties
 ```
 ✅ Set the following values, then close and save the file:
 
@@ -55,7 +55,7 @@ Racks and datacenters are purely logical assignments to Cassandra. You will want
 
 ✅ Open `/workspace/ds201-lab10/node2/conf/cassandra-rackdc.properties`:
 ```
-nano /workspace/ds201-lab10/node2/conf/cassandra.yaml
+nano /workspace/ds201-lab10/node2/conf/cassandra-rackdc.properties
 ```
 ✅ Set the following values, then close and save the file:
 
@@ -78,7 +78,7 @@ Wait for *node1* to start.
 
 ✅ Check on the cluster status:
 ```
-/workspace/ds201-lab10/node2/bin/nodetoll status
+/workspace/ds201-lab10/node2/bin/nodetool status
 ```
 You should now see that the nodes are in different datacenters.
 
