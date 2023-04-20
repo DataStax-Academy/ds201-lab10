@@ -3,8 +3,8 @@
 ## Snitches
 
 **In this hands-on lab, you will:**
-*	Configure your DataStax Enterprise nodes to use a different snitch
-*	Set up your DataStax Enterprise nodes to reside in two different datacenters
+*	Configure your Apache Cassandra™ nodes to use a different snitch
+*	Set up your Cassandra nodes to reside in two different datacenters
 
 
 
