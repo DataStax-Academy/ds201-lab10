@@ -13,6 +13,9 @@
    class="btn btn-dark navigation-top-left">⬅️ Back
  </a>
 <span class="step-count"> Step 1 of 1</span>
+  <a href='command:katapod.loadPage?[{"step":"finish"}]' 
+    class="btn btn-dark navigation-top-right">Next ➡️
+  </a>
 </div>
 
 <!-- CONTENT -->
@@ -89,4 +92,7 @@ You should now see that the nodes are in different datacenters.
  <a href='command:katapod.loadPage?[{"step":"intro"}]'
    class="btn btn-dark navigation-bottom-left">⬅️ Back
  </a>
+ <a href='command:katapod.loadPage?[{"step":"finish"}]' 
+   class="btn btn-dark navigation-top-right">Next ➡️
+  </a>
 </div>
