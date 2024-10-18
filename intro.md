@@ -20,8 +20,8 @@
           </ul>
           <div class="scenario-objectives">In this hands-on lab, you will:</div>
             <ul>
-              <li><span class="scenario-objective">Configure your DataStax Enterprise nodes to use a different snitch</span></li>
-              <li><span class="scenario-objective">Set up your DataStax Enterprise nodes to reside in two different datacenters</span></li>
+              <li><span class="scenario-objective">Configure your Cassandra nodes to use a different snitch</span></li>
+              <li><span class="scenario-objective">Set up your Cassandra nodes to reside in two different datacenters</span></li>
             </ul>
             <p>
               To improve fault-tolerance, distributed systems must consider the topology of the cluster into account. Cassandra uses this topological information to replicate data across a geological diverse area, which increases data availability.

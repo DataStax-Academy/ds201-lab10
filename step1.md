@@ -27,12 +27,12 @@
 nano /workspace/ds201-lab10/node1/conf/cassandra.yaml
 ```
 
-The default snitch, *SimpleSnitch* is only appropriate for single datacenter deployments. 
+The default snitch, `SimpleSnitch` is only appropriate for single datacenter deployments. 
 
-✅ Change the *endpoint_snitch* to *GossipingPropertyFileSnitch*, save and close the file.
+✅ Change the `endpoint_snitch` to `GossipingPropertyFileSnitch`, save and close the file.
 
 ---
-**Note:** *GossipingPropertyFileSnitch* should be your go-to snitch for production use.  The rack and datacenter for the local node are defined in *cassandra-rackdc.properties* and propagated to other nodes via gossip.
+**Note:** `GossipingPropertyFileSnitch` should be your go-to snitch for production use.  The rack and datacenter for the local node are defined in `cassandra-rackdc.properties` and propagated to other nodes via gossip.
 
 ---
 
